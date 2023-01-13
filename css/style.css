@@ -64,6 +64,38 @@ blog section start
     margin-right: 16px;
 }
 
+/*  */
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.courses .react-course img{
+    width: 225px;
+}
+.courses .react-course a{
+    color: red;
+    text-decoration: none;
+}
+.courses .react-course h3{
+    margin: 0;
+}
+.rating-container{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+}
+.courses .time{
+    display: flex;
+    align-items: center;
+    color: red;
+    background-color: rgba(215, 32, 32, 0.505);
+    width: 60px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0 5px;
+    height: 20px;
+}
+
 
 @media screen and (max-width:668px){
     
